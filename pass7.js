@@ -1,5 +1,5 @@
 // Zahashowane hasło (SHA-256 dla słowa "tajnehaslo")
-        const storedHash = "6b51d431df5d7f141cbececcf79edf3dd861c3b4069f0b11661a3eefacbba918";
+        const storedHash = "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3";
 
         document.getElementById('passwordForm').addEventListener('submit', async function(e) {
             e.preventDefault();
