@@ -1,0 +1,82 @@
+body {
+    margin: 10px;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(164, 190, 239);
+    color: rgb(4, 5, 46);
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+.quest {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(193, 11, 203);
+    
+}
+.quest-end {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(193, 11, 203);
+}
+.frame {
+    max-width: 100%;
+}
+.piktogram {
+    max-width: 100%;
+}
+.frame-container {
+    width: 100%;
+    height: 600px; /* Możesz dostosować wysokość ramki */
+    overflow: auto;
+    border: 2px solid white; /* Opcjonalne: Dodanie obramowania ramki */
+}
+
+.image-container {
+    width: 3850px; /* Szerokość kontenera obrazka */
+    height: 1970px; /* Wysokość kontenera obrazka */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.list {
+    list-style-type: circle;
+    text-align: left;
+    font-size: 20px;
+}
+.list1 {
+    list-style-type: lower-alpha;;
+    text-align: left;
+    font-size: 20px;
+}
+#passwordForm { margin: 20px auto; width: 300px; }
+#password { padding: 10px; width: 100%; margin-bottom: 10px; }
+button { padding: 10px 15px; background: #4e00f7; color: white; border: none; cursor: pointer; }
+#message { margin-top: 10px; color: red; }
+
+video {
+    width: 80%; /* Dostosuj rozmiar */
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
